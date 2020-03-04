@@ -14,6 +14,7 @@ As a statistician, in MRCTs we often face the
   - [Step 5: Download csv file](#download-csv) 
 - [Tutorial (Time to event)](#tutorial2) 
   - [Fill in required information](#fill-in2) 
+  - [Optional: Event and sample size calculation](#optional) 
   - [Output table](#output2) 
 - [Reference](#reference) 
 
@@ -43,13 +44,17 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 
 <h4 id="fill-in1">Step 2: Fill in required information</h4> 
 
-- **"Type 1 error", "Power" and "MRCT sample size"** are needed for calculating the corresponding probabilities
+- "Type 1 error", "Power" and "MRCT sample size" are needed for calculating the corresponding probabilities
 
 <img src="image/tutnormal1.PNG" width="430">
 
-- **The optional tab**: Other parameters (in addition to type-1 error and power) allow you to calculate the sample size if it's not ready by hand
+- optional (sample size calculation): Input other parameters (in addition to type-1 error and power) allow you to calculate the sample size if it's not ready by hand
 
 <img src="image/tutnormal2.PNG" width="430">
+
+- Check consistency critieria: Specify desired consistency probability with the proportion of global effect to be retained
+
+<img src="image/tutnormal4.PNG" width="430">
 
 <h4 id="submit">Step 3: Submit! </h4>
 
@@ -94,9 +99,31 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 
 <h4 id="fill-in2">Fill in required information</h4>
 
+- Fill in 'Hazard ratio', 'Treatment:Control' (ratio), 'MRCT event size' and 'MRCT sample size' (optional)
+
+<img src="image/tutsurv1.PNG" width="430">
+
+<h4 id="optional">Optional: Event and sample size calculation</h4>
+
+- If event size is not ready by hand, fill in type 1 error and power in addition to calculate
+
+<img src="image/tutsurv2.PNG" width="430">
+
+- Sample size can be calculated further by specifying the maturity of events at analysis
+
+<img src="image/tutsurv3.PNG" width="430">
+
+- Check the consistency criteria
+
+<img src="image/tutnormal4.PNG" width="430">
+
 <h4 id="output2">Output section</h4>
 
-- The remaining steps are the same.
+- The output section is slightly different, including an additional column 'Regional event size' 
+
+<img src="image/outsurv1.PNG">
+
+The remaining steps are the same.
 
 <h3 id="reference">References</h3> 
 
@@ -113,3 +140,4 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 ### End
 Features including plotting and other common endpoints will be added in the future
 
+ 
