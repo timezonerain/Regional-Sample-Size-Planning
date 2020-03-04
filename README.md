@@ -18,7 +18,7 @@ As a statistician, in MRCTs we often face the
 - [Reference](#reference) 
 
 <h3 id="layout">Layout of the app</h3> 
-Entering the tool: The homepage has a link to this page
+**Entering the tool**: The homepage has a link to this page
 
 ![](image/layout1.PNG)
 
@@ -33,20 +33,22 @@ Entering the tool: The homepage has a link to this page
 
 <br/>
 
-<h3 id="tutorial1">Tutorial (difference of means endpoint)</h3> 
+<h3 id="tutorial1">Tutorial</h3> 
 
 <h4 id="identify">Step 1: Identify the endpoint of interest</h4> 
 If you are planning the sample size focusing on the 
+
+The below steps will use difference of means (normal) as endpoint for illustration.  
 
 <h4 id="fill-in1">Step 2: Fill in required information</h4> 
 
 **"Type 1 error", "Power" and "MRCT sample size"** are needed for calculating the corresponding probabilities
 
-![](image/tutnormal1.PNG)
+<img src="image/tutnormal1.PNG" width="430">
 
 **The optional tab**: Other parameters (in addition to type-1 error and power) allow you to calculate the sample size if it's not ready by hand
 
-![](image/tutnormal2.PNG)
+<img src="image/tutnormal2.PNG" width="430">
 
 <h4 id="submit">Step 3: Submit! </h4>
 
@@ -60,7 +62,7 @@ After clicking the "Submit" button, it takes about 1-10 seconds for the table to
 
 The sentence on top states the corresponding regional sample size when there's 80% chance 50% of the MRCT effect is retained.
 
-![](image/outnormal2.PNG)
+<img src="image/outnormal2.PNG" width="1500">
 
 The output table allows you to search specific ranges of interest for each column.
 
