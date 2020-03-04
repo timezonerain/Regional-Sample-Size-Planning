@@ -18,7 +18,7 @@ Licensed under the MPL-2.0 license.
 
 <h3 id="layout">Layout of the app</h3> 
 Entering the tool
-![](image/layout1.png)
+![](image/layout1.PNG)
 
 <h3 id="tutorial1">Tutorial (difference of means endpoint)</h3> 
 
