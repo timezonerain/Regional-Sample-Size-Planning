@@ -17,7 +17,8 @@ Licensed under the MPL-2.0 license.
 - [Reference](#reference) 
 
 <h3 id="layout">Layout of the app</h3> 
-The 
+Entering the tool
+![](image/layout1.png)
 
 <h3 id="tutorial1">Tutorial (difference of means endpoint)</h3> 
 
