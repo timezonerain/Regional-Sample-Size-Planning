@@ -2,7 +2,15 @@
 Licensed under the MPL-2.0 license.
 
 ### Multivation
-As a statistician, in MRCTs we often face the 
+In MRCTs we often face the need to plan sample size for individual regions/countries.
+
+With certain number of patients for a region, if there's reasonable probability (e.g.80%) that the desired proportion (e.g.50%) of overall treatment effect can be retained, and the treatment effect is positive, we can demonstrate that the sample size for that region is plausible from a statistical perspective. With desired criteria, we can in turn decide how many sample size we want to allocate to that region.
+
+Note that the desired consistency probability and proportion to retain effect varie across regions/countries, studies, endpoints etc. The final decision should be based on not only statistical characteristics, but also regulatory requirements, operational feasibility etc. Please refer to ICH E5& E17 for other important factors to consider.
+
+Note that changing the sample size of a region will not impact MRCT sample size, only the fraction of sample size allocating to that region changes.
+
+<br/>
 
 ### Table of contents
 - [Layout of the app](#layout)
@@ -18,9 +26,11 @@ As a statistician, in MRCTs we often face the
   - [Output table](#output2) 
 - [Reference](#reference) 
 
+<br/>
+
 <h3 id="layout">Layout of the app</h3> 
 
-- **Entering the tool**: The homepage has a link to this page
+- **Entering the tool**: The homepage has a link to this github page
 
 ![](image/layout1.PNG)
 
@@ -38,7 +48,10 @@ As a statistician, in MRCTs we often face the
 <h3 id="tutorial1">Tutorial</h3> 
 
 <h4 id="identify">Step 1: Identify the endpoint of interest</h4> 
-If you are planning the sample size focusing on the 
+
+If you are planning the sample size based on difference of means endpoint, select the "Normal endpoints" tab.
+
+For time-to-event endpoints such as survival, PFS, EFS etc. the "Time-to-event points" tab should be selected.
 
 The below steps will use difference of means (normal) as endpoint for illustration.  
 
@@ -48,7 +61,7 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 
 <img src="image/tutnormal1.PNG" width="430">
 
-- optional (sample size calculation): Input other parameters (in addition to type-1 error and power) allow you to calculate the sample size if it's not ready by hand
+- Optional (sample size calculation): Input other parameters (in addition to type 1 error and power) allow you to calculate the sample size if it's not ready by hand
 
 <img src="image/tutnormal2.PNG" width="430">
 
@@ -99,7 +112,7 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 
 <h4 id="fill-in2">Fill in required information</h4>
 
-- Fill in 'Hazard ratio', 'Treatment:Control' (ratio), 'MRCT event size' and 'MRCT sample size' (optional)
+- Fill in 'Hazard ratio', 'Treatment:Control' (ratio), 'MRCT event size' and 'MRCT sample size' (optional: if empty, the output will not have regional sample size information)
 
 <img src="image/tutsurv1.PNG" width="430">
 
@@ -124,6 +137,8 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 <img src="image/outsurv1.PNG">
 
 The remaining steps are the same.
+
+Note that for time-to-event endpoint, the fraction applies to both sample 
 
 <h3 id="reference">References</h3> 
 
