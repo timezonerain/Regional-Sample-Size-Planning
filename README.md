@@ -2,6 +2,7 @@
 Licensed under the MPL-2.0 license.
 
 ### Multivation
+As a statistician, in MRCTs we often face the 
 
 ### Table of contents
 - [Layout of the app](#layout)
@@ -9,11 +10,11 @@ Licensed under the MPL-2.0 license.
   - [Step 1: Identify the endpoint of interest](#identify) 
   - [Step 2: Fill in required information](#fill-in1) 
   - [Step 3: Submit!](#submit)
-  - [Step 4: View the output table](#output-table1) 
+  - [Step 4: View the output section](#output1) 
   - [Step 5: Download csv file](#download-csv) 
 - [Tutorial (Time to event)](#tutorial2) 
   - [Fill in required information](#fill-in2) 
-  - [Output table](#output-table2) 
+  - [Output table](#output2) 
 - [Reference](#reference) 
 
 <h3 id="layout">Layout of the app</h3> 
@@ -21,11 +22,12 @@ Entering the tool: The homepage has a link to this page
 
 ![](image/layout1.PNG)
 
-The "Normal endpoints" tab: Consists with a side pannel on the left and results section on the right.
 
-![](image/layout2.PNG)
+**The "Normal endpoints" tab**: Consists with a side pannel on the left and results section on the right.
 
-The "Time-to-event endpoints" tab: Consists with a slightly different side pannel on the left and results section on the right.
+<img src="image/layout1.PNG">
+
+**The "Time-to-event endpoints" tab**: Consists with a slightly different side pannel on the left and results section on the right.
 
 ![](image/layout3.PNG)
 
@@ -36,21 +38,32 @@ If you are planning the sample size focusing on the
 
 <h4 id="fill-in1">Step 2: Fill in required information</h4> 
 
+**"Type 1 error", "Power" and "MRCT sample size"** are needed for calculating the corresponding probabilities
+
+![](image/tutnormal1.PNG)
+
+**The optional tab**: Other parameters (in addition to type-1 error and power) allow you to calculate the sample size if it's not ready by hand
+
+![](image/tutnormal2.PNG)
+
 <h4 id="submit">Step 3: Submit! </h4>
 
-Takes about 1-10 seconds for the table to appear
+After clicking the "Submit" button, it takes about 1-10 seconds for the table to appear.
 
-pic
+![](image/tutnormal3.PNG)
 
-<h4 id="output-table1">Step 4: View the output table</h4>
+<h4 id="output1">Step 4: View the output section</h4>
+
+![](image/tutnormal3.PNG)
+The 
 
 The output table allows you to search specific ranges of interest for each column.
 
 pic
 
-You can also change the number of rows to display for the table.
+You can also change the number of entries you want to display on one page.
 
-pic
+
 
 <h4 id="download-csv">Step 5: Download the csv</h4>
 pic
@@ -63,7 +76,7 @@ pic
 
 <h4 id="fill-in2">Fill in required information</h4>
 
-<h4 id="output-table2">Output table</h4>
+<h4 id="output2">Output section</h4>
 
 The remaining steps are the same.
 
