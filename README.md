@@ -25,11 +25,11 @@ As a statistician, in MRCTs we often face the
 
 **The "Normal endpoints" tab**: Consists with a side pannel on the left and results section on the right.
 
-<img src="image/layout2.PNG">
+2
 
 **The "Time-to-event endpoints" tab**: Consists with a slightly different side pannel on the left and results section on the right.
 
-![](image/layout3.PNG)
+3
 
 <br/>
 
@@ -58,7 +58,7 @@ After clicking the "Submit" button, it takes about 1-10 seconds for the table to
 
 <h4 id="output1">Step 4: View the output section</h4>
 
-![](image/outnormal1.PNG)
+1
 
 The sentence on top states the corresponding regional sample size when there's 80% chance 50% of the MRCT effect is retained.
 
@@ -66,11 +66,11 @@ The sentence on top states the corresponding regional sample size when there's 8
 
 The output table allows you to search specific ranges of interest for each column.
 
-![](image/outnormal3.PNG)
+3
 
 You can also sort colunmns ascendingly/descendingly, change the number of entries you want to display on one page etc.
 
-![](image/outnormal4.PNG)
+4
 
 <h4 id="download-csv">Step 5: Download the csv</h4>
 
