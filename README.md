@@ -17,9 +17,17 @@ Licensed under the MPL-2.0 license.
 - [Reference](#reference) 
 
 <h3 id="layout">Layout of the app</h3> 
-Entering the tool
+Entering the tool: The homepage has a link to this page
 
 ![](image/layout1.PNG)
+
+The "Normal endpoints" tab: Consists with a side pannel on the left and results section on the right.
+
+![](image/layout2.PNG)
+
+The "Time-to-event endpoints" tab: Consists with a slightly different side pannel on the left and results section on the right.
+
+![](image/layout3.PNG)
 
 <h3 id="tutorial1">Tutorial (difference of means endpoint)</h3> 
 
