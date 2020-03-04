@@ -25,11 +25,11 @@ As a statistician, in MRCTs we often face the
 
 **The "Normal endpoints" tab**: Consists with a side pannel on the left and results section on the right.
 
-2
+![](image/layout2.PNG)
 
 **The "Time-to-event endpoints" tab**: Consists with a slightly different side pannel on the left and results section on the right.
 
-3
+![](image/layout3.PNG)
 
 <br/>
 
@@ -66,11 +66,11 @@ The sentence on top states the corresponding regional sample size when there's 8
 
 The output table allows you to search specific ranges of interest for each column.
 
-3
+![](image/outnormal3.PNG)
 
 You can also sort colunmns ascendingly/descendingly, change the number of entries you want to display on one page etc.
 
-4
+![](image/outnormal4.PNG)
 
 <h4 id="download-csv">Step 5: Download the csv</h4>
 
