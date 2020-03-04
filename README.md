@@ -62,7 +62,7 @@ After clicking the "Submit" button, it takes about 1-10 seconds for the table to
 
 The sentence on top states the corresponding regional sample size when there's 80% chance 50% of the MRCT effect is retained.
 
-
+![](image/outnormal2.PNG)
 
 The output table allows you to search specific ranges of interest for each column.
 
