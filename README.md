@@ -25,11 +25,13 @@ Entering the tool: The homepage has a link to this page
 
 **The "Normal endpoints" tab**: Consists with a side pannel on the left and results section on the right.
 
-<img src="image/layout1.PNG">
+<img src="image/layout2.PNG">
 
 **The "Time-to-event endpoints" tab**: Consists with a slightly different side pannel on the left and results section on the right.
 
 ![](image/layout3.PNG)
+
+<br/>
 
 <h3 id="tutorial1">Tutorial (difference of means endpoint)</h3> 
 
@@ -54,23 +56,36 @@ After clicking the "Submit" button, it takes about 1-10 seconds for the table to
 
 <h4 id="output1">Step 4: View the output section</h4>
 
-![](image/tutnormal3.PNG)
-The 
+![](image/outnormal1.PNG)
+
+The sentence on top states the corresponding regional sample size when there's 80% chance 50% of the MRCT effect is retained.
+
+![](image/outnormal2.PNG)
 
 The output table allows you to search specific ranges of interest for each column.
 
-pic
+![](image/outnormal3.PNG)
 
-You can also change the number of entries you want to display on one page.
+You can also sort colunmns ascendingly/descendingly, change the number of entries you want to display on one page etc.
 
-
+![](image/outnormal4.PNG)
 
 <h4 id="download-csv">Step 5: Download the csv</h4>
-pic
 
-The download section allows you to choose 6 regional sample size fractions (out of MRCT sample size) to download, the default fractions are 5%, 10%, 15%, 20%, 25% and the calculated fraction where 80% probability 50% of MRCT effect is retained.
+The download section allows you to enter 6 regional sample size fractions (out of MRCT sample size) to download, the default fractions are 5%, 10%, 15%, 20%, 25% and the calculated fraction where 80% probability 50% of MRCT effect is retained.
 
-pic
+<img src="image/outnormal5.PNG" width="700">
+
+The csv file will be downloaded directly to the default folder (normally download folder)
+
+![](image/outnormal6.PNG)
+
+The table layout will be the same as the one in output section, with fractions of interest
+
+<img src="image/outnormal7.PNG" width="700">
+
+
+<br/>
 
 <h3 id="tutorial2">Tutorial (Time to event)</h3> 
 
