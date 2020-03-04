@@ -136,9 +136,7 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 
 <img src="image/outsurv1.PNG">
 
-The remaining steps are the same.
-
-Note that for time-to-event endpoint, the fraction applies to both sample 
+The rest of the steps are the same.
 
 <h3 id="reference">References</h3> 
 
