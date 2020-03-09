@@ -1,4 +1,4 @@
-# Introduction to the regional sample size planning tool
+# Introduction to the Rshiny regional sample size planning tool
 Licensed under the MPL-2.0 license.
 
 ### Multivation
