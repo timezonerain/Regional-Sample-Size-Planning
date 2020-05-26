@@ -112,7 +112,7 @@ The below steps will use difference of means (normal) as an endpoint for illustr
 
 <br/>
 
-<h3 id="tutorial2">Tutorial (Time to event)</h3> 
+<h3 id="tutorial2">Tutorial (Time-to-Event)</h3> 
 
 <h4 id="fill-in2">Fill in required information</h4>
 
@@ -140,6 +140,14 @@ The below steps will use difference of means (normal) as an endpoint for illustr
 
 The rest of the steps are the same.
 
+<br/>
+
+<h3 id="tutorial3">Tutorial (Negative Binomial)</h3> 
+
+<h4 id="fill-in3">Fill in required information</h4>
+
+
+<br/>
 <h3 id="reference">References</h3> 
 
 - Quan, H., Zhao, P. L., Zhang, J., Roessner, M., & Aizawa, K. (2010). Sample size considerations for Japanese patients in a multi‐regional trial based on MHLW guidance. Pharmaceutical Statistics, 9(2), 100-112.
