@@ -124,10 +124,9 @@ The below steps will use difference of means (normal) as an endpoint for illustr
 
 - If event size is not ready by hand, fill in type 1 error and power in addition to calculate
 - Sample size can be calculated further by specifying the maturity of events at analysis
+- Results will be automatically updated in the "Trial Information" section
 
 <img src="image/tutsurv2.PNG" width="430">
-
-<img src="image/tutsurv3.PNG" width="430">
 
 - Check the consistency criteria
 
