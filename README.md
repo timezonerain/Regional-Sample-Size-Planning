@@ -35,11 +35,11 @@ Note that changing the sample size of a region will not impact MRCT sample size,
 ![](image/layout1.PNG)
 
 
-- **The "Normal endpoints" tab**: Consists with a side pannel on the left and results section on the right.
+- **The "Normal Endpoints" tab**: Consists with a side pannel on the left and results section on the right.
 
 ![](image/layout2.PNG)
 
-- **"Time-to-event endpoints" and "Negative Binomial Endpoints"**:Similar to layout in Normal endpoints
+- **Layout of "Time-to-Event Endpoints" and "Negative Binomial Endpoints" are similar**
 
 <br/>
 
@@ -47,11 +47,13 @@ Note that changing the sample size of a region will not impact MRCT sample size,
 
 <h4 id="identify">Step 1: Identify the endpoint of interest</h4> 
 
-If you are planning the sample size based on difference of means endpoint, select the "Normal endpoints" tab.
+If you are planning the sample size based on difference of means endpoint, select the "Normal Endpoints" tab.
 
-For time-to-event endpoints such as survival, PFS, EFS etc. the "Time-to-event points" tab should be selected.
+For time-to-event endpoints such as survival, PFS, EFS etc. the "Time-to-Event Endpoints" tab should be selected.
 
-The below steps will use difference of means (normal) as endpoint for illustration.  
+For negative binomial endpoints, eg.the number of new lesions seen during a 6-month period, the "Negative Binomial Endpoints" tab should be selected.
+
+The below steps will use difference of means (normal) as an endpoint for illustration.  
 
 <h4 id="fill-in1">Step 2: Fill in required information</h4> 
 
@@ -65,13 +67,13 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 
 - Check consistency critieria: Specify desired consistency probability with the proportion of global effect to be retained
 
-<img src="image/tutnormal4.PNG" width="430">
+<img src="image/tutnormal3.PNG" width="430">
 
 <h4 id="submit">Step 3: Submit! </h4>
 
 - After clicking the "Submit" button, it takes about 1-10 seconds for the table to appear.
 
-![](image/tutnormal3.PNG)
+![](image/tutnormal4.PNG)
 
 <h4 id="output1">Step 4: View the output section</h4>
 
