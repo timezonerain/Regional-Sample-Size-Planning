@@ -51,11 +51,11 @@ Note that changing the sample size of a region will not impact MRCT sample size,
 
 <h4 id="identify">Step 1: Identify the endpoint of interest</h4> 
 
-If you are planning the sample size based on difference of means endpoint, select the "Normal Endpoints" tab.
+- If you are planning the sample size based on difference of means endpoint, select the "Normal Endpoints" tab.
 
-For time-to-event endpoints such as survival, PFS, EFS etc. the "Time-to-Event Endpoints" tab should be selected.
+- For time-to-event endpoints such as survival, PFS, EFS etc. the "Time-to-Event Endpoints" tab should be selected.
 
-For negative binomial endpoints, e.g. the number of new lesions seen during a 6-month period, the "Negative Binomial Endpoints" tab should be selected.
+- For negative binomial endpoints, e.g. the number of new lesions seen during a 6-month period, the "Negative Binomial Endpoints" tab should be selected.
 
 The below steps will use difference of means (normal) as an endpoint for illustration.  
 
