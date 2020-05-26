@@ -26,7 +26,7 @@ Note that changing the sample size of a region will not impact MRCT sample size,
   - [Output table](#output2) 
 - [Tutorial (Negative Binomial)](#tutorial3) 
   - [Fill in required information](#fill-in3) 
-  - [Optional: Event and sample size calculation](#optional2) 
+  - [Optional: Sample size calculation](#optional2) 
   - [Output table](#output3)  
 - [Reference](#reference) 
 
@@ -145,6 +145,26 @@ The rest of the steps are the same.
 <h3 id="tutorial3">Tutorial (Negative Binomial)</h3> 
 
 <h4 id="fill-in3">Fill in required information</h4>
+<img src="image/tutnegbin1.PNG" width="430">
+<h4 id="optional1">Optional: Event and sample size calculation</h4>
+- If sample size is not ready by hand, in addition to information in "Trial Information", fill in type 1 error, power, and choose the method to estimate variance under null hypothesis
+- The sample size calculation reference is provided
+- Results will be automatically updated in the "Trial Information" section
+
+<img src="image/tutnegbin2.PNG" width="430">
+
+- Check the consistency criteria
+
+<img src="image/tutnormal4.PNG" width="430">
+
+<h4 id="output3">Output section</h4>
+<img src="image/outnegbin1.PNG">
+
+The rest of the steps are the same.
+
+
+
+
 
 
 <br/>
