@@ -119,10 +119,9 @@ The below steps will use difference of means (normal) as endpoint for illustrati
 <h4 id="optional">Optional: Event and sample size calculation</h4>
 
 - If event size is not ready by hand, fill in type 1 error and power in addition to calculate
+- Sample size can be calculated further by specifying the maturity of events at analysis
 
 <img src="image/tutsurv2.PNG" width="430">
-
-- Sample size can be calculated further by specifying the maturity of events at analysis
 
 <img src="image/tutsurv3.PNG" width="430">
 
