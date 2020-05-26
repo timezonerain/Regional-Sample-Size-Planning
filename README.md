@@ -39,9 +39,7 @@ Note that changing the sample size of a region will not impact MRCT sample size,
 
 ![](image/layout2.PNG)
 
-- **The "Time-to-event endpoints" tab**: Consists with a slightly different side pannel on the left and results section on the right.
-
-![](image/layout3.PNG)
+- **"Time-to-event endpoints" and "Negative Binomial Endpoints"**:Similar to layout in Normal endpoints
 
 <br/>
 
