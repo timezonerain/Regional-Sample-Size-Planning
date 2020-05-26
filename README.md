@@ -145,13 +145,22 @@ The rest of the steps are the same.
 <h3 id="tutorial3">Tutorial (Negative Binomial)</h3> 
 
 <h4 id="fill-in3">Fill in required information</h4>
+
 <img src="image/tutnegbin1.PNG" width="430">
-<h4 id="optional1">Optional: Event and sample size calculation</h4>
-- If sample size is not ready by hand, in addition to information in "Trial Information", fill in type 1 error, power, and choose the method to estimate variance under null hypothesis
-- The sample size calculation reference is provided
-- Results will be automatically updated in the "Trial Information" section
+
+- Treatment group rate can also be calculated with Reference group rate and Rate ratio.
 
 <img src="image/tutnegbin2.PNG" width="430">
+
+<h4 id="optional1">Optional: Event and sample size calculation</h4>
+
+- If sample size is not ready by hand, in addition to information in "Trial Information", fill in type 1 error, power, and choose the method to estimate variance under null hypothesis
+
+- The sample size calculation reference is provided
+
+- Results will be automatically updated in the "Trial Information" section
+
+<img src="image/tutnegbin3.PNG" width="430">
 
 - Check the consistency criteria
 
