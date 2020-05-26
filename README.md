@@ -51,7 +51,7 @@ If you are planning the sample size based on difference of means endpoint, selec
 
 For time-to-event endpoints such as survival, PFS, EFS etc. the "Time-to-Event Endpoints" tab should be selected.
 
-For negative binomial endpoints, eg.the number of new lesions seen during a 6-month period, the "Negative Binomial Endpoints" tab should be selected.
+For negative binomial endpoints, e.g. the number of new lesions seen during a 6-month period, the "Negative Binomial Endpoints" tab should be selected.
 
 The below steps will use difference of means (normal) as an endpoint for illustration.  
 
@@ -61,7 +61,7 @@ The below steps will use difference of means (normal) as an endpoint for illustr
 
 <img src="image/tutnormal1.PNG" width="430">
 
-- Optional (sample size calculation): Input other parameters (in addition to type 1 error and power) allow you to calculate the sample size if it's not ready by hand
+- MRCT sample size calculation (optional): Input other parameters (in addition to type 1 error and power), which allows you to calculate the sample size if it's not ready by hand. The calculated sample size will be updated automatically in the "Trial Information" section.
 
 <img src="image/tutnormal2.PNG" width="430">
 
