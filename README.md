@@ -22,8 +22,12 @@ Note that changing the sample size of a region will not impact MRCT sample size,
   - [Step 5: Download csv file](#download-csv) 
 - [Tutorial (Time to event)](#tutorial2) 
   - [Fill in required information](#fill-in2) 
-  - [Optional: Event and sample size calculation](#optional) 
+  - [Optional: Event and sample size calculation](#optional1) 
   - [Output table](#output2) 
+- [Tutorial (Negative Binomial)](#tutorial3) 
+  - [Fill in required information](#fill-in3) 
+  - [Optional: Event and sample size calculation](#optional2) 
+  - [Output table](#output3)  
 - [Reference](#reference) 
 
 <br/>
@@ -112,11 +116,11 @@ The below steps will use difference of means (normal) as an endpoint for illustr
 
 <h4 id="fill-in2">Fill in required information</h4>
 
-- Fill in 'Hazard ratio', 'Treatment:Control' (ratio), 'MRCT event size' and 'MRCT sample size' (optional: if empty, the output will not have regional sample size information)
+- Fill in 'Hazard ratio', 'Treatment:Control' (ratio), 'MRCT event size' and 'MRCT sample size' (optional: if empty, the output will only have regional event size information)
 
 <img src="image/tutsurv1.PNG" width="430">
 
-<h4 id="optional">Optional: Event and sample size calculation</h4>
+<h4 id="optional1">Optional: Event and sample size calculation</h4>
 
 - If event size is not ready by hand, fill in type 1 error and power in addition to calculate
 - Sample size can be calculated further by specifying the maturity of events at analysis
