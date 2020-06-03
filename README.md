@@ -2,7 +2,7 @@
 Licensed under the MPL-2.0 license.
 
 ### Multivation
-In MRCTs we often face the need to plan sample size for individual regions/countries.
+In MRCTs we often face the need to plan sample size for different regions/countries.
 
 With certain number of patients for a region, if there's reasonable probability (e.g.80%) that the desired proportion (e.g.50%) of overall treatment effect can be retained, and the treatment effect is positive, we can demonstrate that the sample size for that region is plausible from a statistical perspective. With desired criteria, we can in turn decide how many sample size we want to allocate to that region.
 
@@ -191,6 +191,6 @@ The rest of the steps are the same.
   - shinycssloaders
 
 ### End
-Features including plotting and other common endpoints will be added in the future
+Features including overall consistency probability, plotting and other common endpoints will be added in the future
 
  
