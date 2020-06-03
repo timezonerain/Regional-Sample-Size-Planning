@@ -34,12 +34,12 @@ Note that changing the sample size of a region will not impact MRCT sample size,
 
 <h3 id="layout">Layout of the app</h3> 
 
-- **Entering the tool**: The homepage has a link to this github page
+- **Entering the tool**: 
 
 ![](image/layout1.PNG)
 
 
-- **The "Normal Endpoints" tab**: Consists with a side pannel on the left and results section on the right.
+- **The "Normal Endpoints" tab**: Consists with a side pannel on the left which inputs are required and results section on the right.
 
 ![](image/layout2.PNG)
 
@@ -57,7 +57,7 @@ Note that changing the sample size of a region will not impact MRCT sample size,
 
 - For negative binomial endpoints, e.g. the number of new lesions seen during a 6-month period, the "Negative Binomial Endpoints" tab should be selected.
 
-The below steps will use difference of means (normal) as an endpoint for illustration.  
+The below steps will use normal endpoint for illustration.  
 
 <h4 id="fill-in1">Step 2: Fill in required information</h4> 
 
@@ -181,6 +181,7 @@ The rest of the steps are the same.
 
 - Quan, H., Zhao, P. L., Zhang, J., Roessner, M., & Aizawa, K. (2010). Sample size considerations for Japanese patients in a multi‐regional trial based on MHLW guidance. Pharmaceutical Statistics, 9(2), 100-112.
 - Hayashi, Nobuya & Itoh, Yohji. (2018). A Re-examination of Japanese Sample Size Calculation for Multi-regional Clinical Trial Evaluating Survival Endpoint. Japanese Journal of Biometrics. 38. 10.5691/jjb.38.79. 
+- Zhu, H. and Lakkis, H. (2014), Sample size calculation for comparing two negative binomial rates. Statist. Med., 33: 376-387. doi:10.1002/sim.5947
 - Packages used for building the app: 
   - httpuv
   - shiny
